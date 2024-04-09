@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(600px at 550px 548px, rgba(29, 78, 216, 0.15), transparent 80%)
+    @apply h-screen w-screen bg-white;
+}
